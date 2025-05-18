@@ -27,7 +27,7 @@ type CategoryPageProps = {
 export default function CategoryPage({ params }: CategoryPageProps) {
   const { slug } = params;
   const category = mockCategories[slug] || { name: "Unknown Category", description: "Category not found.", slug: "unknown" };
-  const threadsInCategory = mockThreads.filter(thread => thread.categoryName.toLowerCase().replace(/\s+/g, '-') === slug);
+  const threadsInCategory = mockThreads.filter(thread => thread.categoryId === category.id);
 
   return (
     <div className="space-y-6">

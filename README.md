@@ -1,4 +1,4 @@
-# 💓 HeartConnect Forum
+# ❤️ HeartConnect Forum
 
 **A safe space for people with pacemakers, heart conditions, and their loved ones to connect, share experiences, and support each other.**
 
